@@ -30,8 +30,7 @@
 }
 
 #menu_index:hover{
-    transform: scale(110%);
-    text-decoration: overline underline;
+    transform: scale(120%);
 }
 
 #menu{
@@ -51,8 +50,7 @@
 }
 
 #menu li:hover{
-    transform: scale(110%);
-    text-decoration: overline underline;
+    transform: scale(120%);
 }
 
 #condents{
