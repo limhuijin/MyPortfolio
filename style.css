@@ -27,6 +27,8 @@
 #menu_index a{
     color: white;
     text-decoration-line: none;
+    font-family: cursive;
+    font-size: 25px;
 }
 
 #menu_index:hover{
@@ -47,6 +49,8 @@
 #menu li a{
     color: white;
     text-decoration-line: none;
+    font-family: cursive;
+    font-size: 25px;
 }
 
 #menu li:hover{
