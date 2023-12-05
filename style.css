@@ -73,7 +73,9 @@
     position: relative;
     transform: translateY(0%);
     border-top: 1px solid ;
+}
 
+#footer::before{
     font-size: 12px;
     display: flex;
     align-items: center;
