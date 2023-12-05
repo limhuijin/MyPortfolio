@@ -18,20 +18,20 @@
     color: white;
 }
 
-#menu_index{
+#menu-index{
     text-align: center;
     margin: 20px 0 0 0;
     z-index: 999;
 }
 
-#menu_index a{
+#menu-index a{
     color: white;
     text-decoration-line: none;
     font-family: cursive;
     font-size: 25px;
 }
 
-#menu_index:hover{
+#menu-index:hover{
     transform: scale(120%);
 }
 
