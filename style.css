@@ -1,6 +1,7 @@
 
 #size{
     margin: 0 auto;
+    overflow: hidden;
 }
 
 #bg-img{
