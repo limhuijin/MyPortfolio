@@ -73,6 +73,10 @@
     position: relative;
     transform: translateY(0%);
     border-top: 1px solid ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 
@@ -80,10 +84,5 @@
     font-size: 16px;
     font-family: cursive;
     color: white;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-
     background-color: rgba(22, 26, 48, 1);
 }
