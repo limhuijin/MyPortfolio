@@ -72,7 +72,8 @@
     height: 40px;
     position: relative;
     transform: translateY(0%);
-    border-top: 1px solid ;
+    border-top: 1px solid rgb(22, 26, 48);
+    background-color: rgba(22, 26, 48, 1);
     
     display: flex;
     align-items: center;
@@ -84,5 +85,4 @@
     font-size: 16px;
     font-family: cursive;
     color: white;
-    background-color: rgba(22, 26, 48, 1);
 }
