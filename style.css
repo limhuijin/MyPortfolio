@@ -75,20 +75,15 @@
     border-top: 1px solid ;
 }
 
-#footer::before{
-    opacity: 0.5;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    background-color: #000;
-}
 
 #footer p{
-    font-size: 12px;
+    font-size: 16px;
+    font-family: cursive;
+    color: white;
+    
     display: flex;
     align-items: center;
     justify-content: center; 
-    background-color: rgb(170, 209, 40);
+
+    background-color: rgba(22, 26, 48, 1);
 }
