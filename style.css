@@ -73,12 +73,6 @@
     position: relative;
     transform: translateY(0%);
     border-top: 1px solid ;
-
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    background-color: rgb(170, 209, 40);
 }
 
 #footer::before{
@@ -89,4 +83,12 @@
     right: 0px;
     bottom: 0px;
     background-color: #000;
+}
+
+#footer p{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(170, 209, 40);
 }
