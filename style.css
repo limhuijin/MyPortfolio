@@ -1,12 +1,13 @@
-#size{
-    margin: 0 auto;
-    overflow: hidden;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #img{
     background-image: url("/MyPortfolio/photo/index.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center center;
 }
 
