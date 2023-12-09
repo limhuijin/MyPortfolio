@@ -81,11 +81,9 @@
 /* 하단 푸터 */
 
 #footer{
-    height: 40px;
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translateY(0%);
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 40px;
     border: 1px solid rgb(22, 26, 48);
     background-color: rgba(22, 26, 48, 1);
     
@@ -95,9 +93,14 @@
     flex-direction: column;
 }
 
-
 #footer p{
     font-size: 16px;
     font-family: cursive;
     color: white;
+}
+
+footer{
+    height: 40px;
+    position: relative;
+    transform: translateY(-100%);
 }
