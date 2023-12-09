@@ -1,7 +1,3 @@
-body { 
-    min-height: 100vh; 
-}
-
 #size{
     margin: 0 auto;
     overflow: hidden;
@@ -21,20 +17,20 @@ body {
     color: white;
 }
 
-#menu-index{
+#menuIndex{
     text-align: center;
     margin: 20px 0 0 0;
     z-index: 999;
 }
 
-#menu-index a{
+#menuIndex a{
     color: white;
     text-decoration-line: none;
     font-family: cursive;
     font-size: 25px;
 }
 
-#menu-index:hover{
+#menuIndex:hover{
     transform: scale(120%);
 }
 
