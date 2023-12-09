@@ -1,5 +1,9 @@
+body { 
+    min-height: 100vh; 
+}
+
 #size{
-    margin: 0;
+    margin: 0 auto;
     overflow: hidden;
 }
 
