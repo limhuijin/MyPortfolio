@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    height: 100%;
+}
+
 #img{
     background-image: url("/MyPortfolio/photo/index.jpg");
     background-repeat: no-repeat;
@@ -17,7 +21,6 @@
 
 #header{
     width: 100%;
-    margin: 0, auto;
     padding: 5px 10px;
 }
 
@@ -65,6 +68,7 @@
 #contents{
     width: 100%;
     height: 1200px;
+    min-height: calc(100vh - 50px);
 
     display: flex;
     align-items: center;
@@ -72,19 +76,11 @@
     flex-direction: column;
 }
 
-#contentsImg img{
-    display: inline-block;
-    max-width: 49%;
-    height: auto;
-}
-
 /* 하단 푸터 */
 
 #footer{
     height: auto;
-    margin-top: 20px;
-    min-height: 100%;
-    padding: 3px 3px;
+    padding: 5px 5px;
     border: 1px solid rgb(22, 26, 48);
     background-color: rgba(22, 26, 48, 1);
     
