@@ -7,8 +7,8 @@ body {
     overflow: hidden;
 }
 
-#bg-img{
-    background-image: url("/MyPortfolio/photo/index-img1.jpg");
+#img{
+    background-image: url("/MyPortfolio/photo/index.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center center;
