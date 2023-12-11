@@ -96,7 +96,6 @@ body{
 
 .titleP{
     width: 100%;
-    height: 200px;
     color: black;
     font-size: 22px;
     font-family: Georgia;
@@ -107,7 +106,6 @@ body{
 
 .contentP{
     width: 100%;
-    height: 200px;
     color: white;
     font-size: 18px;
     font-family: Georgia;
