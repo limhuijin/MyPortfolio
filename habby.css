@@ -75,22 +75,13 @@ body{
     
 }
 
-.container{
-    align-items: center;
-    flex-direction: column;
-}
-
 .item img{
-    width: auto;
+    width: 700px;
+    height: 600px;
     object-fit: cover;
 }
 
 .item p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
     color: #E0E1E8;   
     font-weight: bold;
     text-align: center;
