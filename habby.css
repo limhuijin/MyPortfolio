@@ -78,6 +78,19 @@ body{
     flex-direction: column;
 }
 
+div.item:nth-child(1){
+    background: blueviolet;
+}
+
+div.item:nth-child(2){
+    background: pink;
+}
+
+div.item:nth-child(3){
+    background-color: burlywood;
+}
+
+
 /* 하단 푸터 */
 
 #footer{
