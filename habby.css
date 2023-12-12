@@ -100,9 +100,12 @@ div.item:nth-child(3){
     width: 50px;
     height: 600px;
     border: none;
-
     background-color: grey;
     color: black;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* 하단 푸터 */
