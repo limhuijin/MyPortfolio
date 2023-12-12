@@ -5,6 +5,7 @@
     <title>임희진 취미</title>
     <link rel="stylesheet" href="/MyPortfolio/habby.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/MyPortfolio/habby.js"></script>
 </head>
 <body id="img">
     <div id="size">
@@ -20,8 +21,24 @@
         </div>
         
         <div id="contents">
-            <div>
+            <div data-role="slider" data-width="500" data-height="300">
+                <div class="container">
+                    <div class="item">
+                        <h1>제목입니다</h1>
+                        <p>내용입니다</p>
+                    </div>
+                    <div class="item">
+                        <h1>제목입니다</h1>
+                        <p>내용입니다</p>
+                    </div>
+                    <div class="item">
+                        <h1>제목입니다</h1>
+                        <p>내용입니다</p>
+                    </div>
+                </div>
             </div>
+            <button id="left-button">←</button>
+            <button id="right-button">→</button>
         </div>
 
         <div id="footer">
