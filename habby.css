@@ -75,6 +75,11 @@ body{
     
 }
 
+.container{
+    align-items: center;
+    flex-direction: column;
+}
+
 .item img{
     width: 700px;
     height: 600px;
@@ -82,7 +87,7 @@ body{
 }
 
 .item p{
-    color: #172C51;   
+    color:#172C51;   
     font-weight: bold;
     text-align: center;
     line-height: 20px;
