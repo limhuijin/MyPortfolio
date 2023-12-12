@@ -80,6 +80,24 @@ body{
     flex-direction: column;
 }
 
+.item img{
+    width: auto;
+    object-fit: cover;
+}
+
+.first_image p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #E0E1E8;   
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+}
+
 .buttonCss{
     width: 50px;
     height: 600px;
@@ -91,6 +109,7 @@ body{
     align-items: center;
     justify-content: center; 
 }
+
 
 /* 하단 푸터 */
 
