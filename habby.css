@@ -90,6 +90,20 @@ div.item:nth-child(3){
     background-color: burlywood;
 }
 
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonCss{
+    width: 50px;
+    height: 600px;
+    border: none;
+
+    background-color: grey;
+    color: black;
+}
 
 /* 하단 푸터 */
 
