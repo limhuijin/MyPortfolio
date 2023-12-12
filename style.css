@@ -22,6 +22,7 @@ body{
 #header{
     width: 100%;
     padding: 5px 10px;
+    background-color : rgb(23, 44, 81, 0.5);
 }
 
 #menuIndex{
@@ -31,7 +32,7 @@ body{
 }
 
 #menuIndex a{
-    color: black;
+    color: #E0E1E8;
     text-decoration-line: none;
     font-family: cursive;
     font-size: 25px;
@@ -53,7 +54,7 @@ body{
 }
 
 #menu li a{
-    color: black;
+    color: #E0E1E8;
     text-decoration-line: none;
     font-family: cursive;
     font-size: 25px;
@@ -80,7 +81,7 @@ body{
 #footer{
     height: auto;
     padding: 5px 5px;
-    background-color: #A0BFE0;
+    background-color: #172C51;
     position: relative;
 
     display: flex;
@@ -91,5 +92,5 @@ body{
 #footer p{
     font-size: 16px;
     font-family: cursive;
-    color: black;
+    color: #E0E1E8;
 }
