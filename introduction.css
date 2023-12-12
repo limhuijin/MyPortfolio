@@ -11,9 +11,6 @@ body{
 }
 
 #img{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
     background-color: #C5DFF8;
 }
 
