@@ -4,6 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family : '배달의민족주아';
+}
+
+@font-face {
+    font-family : '배달의민족주아';
+    src : url(/MyPortfolio/BMJUA_ttf.ttf)
 }
 
 body{
@@ -31,7 +37,6 @@ body{
 #menuIndex a{
     color:#E0E1E8;
     text-decoration-line: none;
-    font-family: cursive;
     font-size: 25px;
 }
 
@@ -53,7 +58,6 @@ body{
 #menu li a{
     color: #E0E1E8;
     text-decoration-line: none;
-    font-family: cursive;
     font-size: 25px;
 }
 
@@ -84,8 +88,8 @@ body{
 }
 
 .introImg img{
-    width: 250px;
-    height: 300px;
+    width: 220px;
+    height: 220px;
     border-radius: 5px;
     margin-bottom: 40px;
     object-fit: cover;
@@ -95,7 +99,6 @@ body{
     width: 100%;
     color: #172C51;
     font-size: 22px;
-    font-family: Georgia;
     line-height: 30px;
     text-align: center;
 
@@ -116,6 +119,5 @@ body{
 
 #footer p{
     font-size: 16px;
-    font-family: cursive;
     color: #E0E1E8;
 }
