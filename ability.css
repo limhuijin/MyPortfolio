@@ -1,15 +1,15 @@
 /* 설정 초기화, 이미지 설정 등 */
 
+@font-face {
+    font-family : '배달의민족주아';
+    src : url(/MyPortfolio/BMJUA_ttf.ttf)
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family : '배달의민족주아';
-}
-
-@font-face {
-    font-family : '배달의민족주아';
-    src : url(/MyPortfolio/BMJUA_ttf.ttf)
 }
 
 body{
