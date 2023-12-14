@@ -2,18 +2,18 @@
 
 @font-face {
     font-family : '배달의민족주아';
-    src : url(/MyPortfolio/BMJUA_ttf.ttf)
+    src : url(/MyPortfolio/BMJUA_ttf.ttf) format('truetype')
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family : '배달의민족주아';
 }
 
 body{
     height: 100%;
+    font-family : '배달의민족주아';
 }
 
 #img{
