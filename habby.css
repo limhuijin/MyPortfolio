@@ -1,5 +1,10 @@
 /* 설정 초기화, 이미지 설정 등 */
 
+@font-face {
+    font-family : '배달의민족주아';
+    src : url(/MyPortfolio/BMJUA_ttf.ttf) format('truetype')
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +13,7 @@
 
 body{
     height: 100%;
+    font-family : '배달의민족주아';
 }
 
 #img{
@@ -31,7 +37,6 @@ body{
 #menuIndex a{
     color: #E0E1E8;
     text-decoration-line: none;
-    font-family: cursive;
     font-size: 25px;
 }
 
@@ -53,7 +58,6 @@ body{
 #menu li a{
     color: #E0E1E8;
     text-decoration-line: none;
-    font-family: cursive;
     font-size: 25px;
 }
 
@@ -123,6 +127,5 @@ body{
 
 #footer p{
     font-size: 16px;
-    font-family: cursive;
     color: #E0E1E8;
 }
