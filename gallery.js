@@ -6,7 +6,7 @@ $(document).ready(function(){
         }).appendTo('body');
     }
 
-    $('body').masonry({
+    $('contents').masonry({
         columWidth:110
     });
 });
