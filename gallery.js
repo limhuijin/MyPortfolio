@@ -3,7 +3,7 @@ $(document).ready(function(){
         $('<div><div>').addClass('box').css({
             width: 100,
             height: Math.floor(Math.random() * 100) + 50,
-        }).appendTo('body');
+        }).appendTo('#contents');
     }
 
     $('#contents').masonry({
