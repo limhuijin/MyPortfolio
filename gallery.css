@@ -67,7 +67,7 @@ body{
 
 /* 메인 컨텐츠 */
 
-#contents{
+.contents{
     width: 100%;
     height: 700px;
     margin-top: 100px;
@@ -79,7 +79,6 @@ body{
 }
 
 .box{
-    background: black;
     margin: 5px;
 }
 
